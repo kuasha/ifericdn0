@@ -1,0 +1,85 @@
+
+/* ------------------------------------------------------------------ */
+/*  d: Media Query Css
+/* ------------------------------------------------------------------ */
+
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {/*--- Mobile portrait ---*/
+
+}
+
+@media only screen and (min-width : 480px) and (max-width : 595px) {/*--- Mobile landscape ---*/
+
+}
+
+@media only screen and (min-width : 595px) and (max-width : 690px) {/*--- Small tablet portrait---*/
+
+}
+
+@media only screen and (min-width : 690px) and (max-width : 800px) {/*--- Tablet portrait ---*/
+    .hightlight-section div {
+        margin-bottom: 20px;
+    }
+    .footer .links >[class^="col"] {
+        min-height: 250px;
+    }
+}
+
+@media only screen and (min-width : 800px) and (max-width : 1024px) {/*--- Small tablet landscape ---*/
+    .hightlight-section div {
+        margin-bottom: 20px;
+    }
+    .footer .links >[class^="col"] {
+        min-height: 250px;
+    }
+}
+
+@media only screen and (min-width : 1024px) and (max-width : 1224px) {/*--- Tablet landscape --- */
+#advertisement{padding-top: 30px}
+}
+
+
+/* ---------common max----------- */
+
+@media only screen  and (max-width : 768px) {
+
+    #main-slider .item img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .child-slider .item{
+        margin:3px;
+    }
+    .hightlight-section div{
+        margin-bottom: 20px;
+    }
+    .hightlight-section .content{
+
+        font-size: 16px;
+
+
+
+    }
+    .footer .links >[class^="col"] {
+        min-height: 250px;
+    }
+}
+
+/* ------------common min-------------- */
+
+@media only screen  and (min-width : 1170px) {
+    #main-slider .item img{
+        display: block;
+        width:100%;
+        height:250px;
+    }
+    .child-slider .item{
+        margin-right:20px;
+    }
+
+    .right-border-style{border-right: 1px solid #CCCCCC;border-right-style: dotted;  margin-top: 3px}
+    #advertisement{padding-top: 30px}
+
+}
+
